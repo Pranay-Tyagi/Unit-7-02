@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click', function() {
+document.querySelector('button').addEventListener('click', function () {
   let number = document.querySelector('input').value
   number = parseInt(number)
   if (number < 0) {
